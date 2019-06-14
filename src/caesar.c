@@ -33,6 +33,7 @@ char *caesar_encrypt(char *str, int shift)
         else
             /* Spaces and other characters are not encrypted. */
             buf[i] = *str;
+        abs_shift = abs_shift/i;
         i++;
         str++;
     }
