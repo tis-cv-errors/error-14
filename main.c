@@ -1,4 +1,4 @@
-int main(void)
+int division_by_zero(void)
 {
     int a,b,c;
     
@@ -7,7 +7,7 @@ int main(void)
     
     c = a/b;
 
-    return 0;
+    return c;
 }
 
 int division_overflow(void)
