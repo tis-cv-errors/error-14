@@ -5,6 +5,14 @@ int division_by_zero(void)
     a = 2;
     b = 0;
     
+    a=a+b;
+    a=a+2*b;
+    a=a+3*b;
+    a=a+4*b;
+    a=a+5*b;
+    a=a+6*b;
+    a=a+7*b;
+   
     c = a/b;
 
     return c;
