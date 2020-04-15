@@ -30,3 +30,14 @@ int division_overflow(void)
     return c;
 }
 
+int signed_overflow(void)
+{
+    int a,b;
+    
+    a = 2147483648;
+    b = 2147483648;
+    
+    c = a + b;
+
+    return c;
+}
