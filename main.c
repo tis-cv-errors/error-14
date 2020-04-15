@@ -32,7 +32,7 @@ int division_overflow(void)
 
 int signed_overflow(void)
 {
-    int a,b;
+    int a,b,c;
     
     a = 2147483648;
     b = 2147483648;
